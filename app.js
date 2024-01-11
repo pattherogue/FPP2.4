@@ -57,3 +57,7 @@ switch (emblemClue3) {
         locationStart += " West";
         break;
 }
+
+//Why is it important to be careful when using `==` (double equals) instead of `===` (triple equals) in our conditionals?
+
+//In conditionals, `===` ensures strict equality by comparing both value and type without any type coercion. On the contrary, `==` performs type coercion, potentially causing unexpected behavior. Choosing `===` is a safer practice for accurate and predictable comparisons.
